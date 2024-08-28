@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 0 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF6B35;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 64px;
+    margin: 0;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 16px 0 0 0;
+}
+
+h3{
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 32px;
+    margin: 0 0 20px 0;
+}
+h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 8px 12px 0;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #FF6B35;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 64px;
+    margin: 0 0 -64px 0;
+    padding: 0 64px 0 64px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+#navbar-logo {
+    width: 100px;
+}
+
+#hero-section {
+    background-image: url("./images/schweinfurt.png");
+    background-size: cover;
+    padding: 244px 0 200px 0;
+}
+
+#hero-title {
+    color: white;
+    text-shadow: 0 0 8px black;
+    width: 500px;
+    margin: auto;
+}
+
+#hero-button {
+    margin: 24px 0;
+}
+
+#activities-section {
+    margin: 40px 64px;
+    color: #004E89;
+}
+
+#activities-cards {
+    display: flex;
+    margin: 40px 0;
+}
+
+.activity-card {
+    text-align: center;
+    width: 500px;
+    margin: 0 8px;
+    padding: 20px 24px;
+}
+
+.activity-card:hover {
+    background: rgba(0 0 0 / 10%);
+    border-radius: 8px;
+}
+
+.activity-image {
+    width: 150px;
+    height: 150px;
+    margin: 0 0 16px 0;
+    border: 4px solid rgba(0 0 0 / 10%);
+    border-radius: 50%
+}
+
+#guide-section {
+    color: #004E89;
+}
+
+#guide-card {
+    display: flex;
+    align-items: center;
+    background: lightblue;
+    text-align: left;
+    width: 600px;
+    padding: 20px 40px;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+#guide-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 12px 0 0;
+    border: 4px solid rgba(0 0 0 / 10%);
+    border-radius: 50%;
+}
+
+#footer-section {
+    background: #EFEFD0;
+    height: 44px;
+    text-align: center;
+    padding: 22px 0 0 0;
+    margin: 64px 0 0 0;
+}
