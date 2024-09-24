@@ -1,4 +1,4 @@
-# hometown-homepage
+# Hometown Page
 First Solo Project in my Frontend-Engineer Course from Scrimba
 
-Netlify Link: https://soloproject-schweinfurt.netlify.app/
+Check it out on: https://soloproject-schweinfurt.netlify.app/
